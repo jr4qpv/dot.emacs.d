@@ -23,24 +23,24 @@ git clone https://github.com/jr4qpv/dot.emacs.d.git ~/.emacs.d
 -------------------
 macOS, Windows, Linuxで共用です。
 
-####１）macOS 10.12 -- Emacs25.1 Mac port, ATOK2015
+#### １）macOS 10.12 -- Emacs25.1 Mac port, ATOK2015
 Emacs本体のインストール手順は、下記URL参照  
 <http://jr4qpv.hatenablog.com/entry/2016/12/13/094231>
 
 Osaka等幅フォントになるように、アプリケーション→Font Book→Osaka  
 レギュラーを選択し右クリックで「使用停止」して使っています。
 
-####２）Windows 10(msys2) -- NTEmacs25.1 + IMEパッチ, ATOK2015
+#### ２）Windows 10(msys2) -- NTEmacs25.1 + IMEパッチ, ATOK2015
 Emacs本体のインストール手順は、下記URL参照  
 <http://jr4qpv.hatenablog.com/entry/2016/12/23/122533>
 
-####３）Ubunt 16.04 LTS Server -- Emacs25.1
+#### ３）Ubunt 16.04 LTS Server -- Emacs25.1
 Emacs本体のインストール手順は、下記URL参照  
 <http://jr4qpv.hatenablog.com/entry/2016/12/30/131411>
 
 設定内容
 ---------
-####主な利用パッケージ
+#### 主な利用パッケージ
 * init-loader
 * undo-tree
 * sequential-command
