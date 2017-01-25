@@ -40,14 +40,28 @@ Emacs本体のインストール手順は、下記URL参照
 Emacs本体のインストール手順は、下記URL参照  
 <http://jr4qpv.hatenablog.com/entry/2016/12/30/131411>
 
-設定内容
----------
-#### 主な利用パッケージ
+利用している外部パッケージ
+-----------------------------
+ELPAからインストールしたもの。
+
 * init-loader
 * undo-tree
 * sequential-command
 * helm
 * elscreen
+* helm-ag
+* ag
+* eldoc-extension
+* paredit
+* lispxmp
+* open-junk-file
+* recentf-ext
+* egg
+* diminish
+* markdown-mode
+* auto-complete  (有効にしていない)
+* auto-async-byte-compile  (有効にしていない)
+* auto-install  (有効にしていない)
 
 設定ファイル構成
 ------------------
