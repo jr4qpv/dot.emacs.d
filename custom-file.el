@@ -7,7 +7,7 @@
  '(display-time-mode t)
  '(package-selected-packages
    (quote
-    (package-utils elscreen auto-async-byte-compile helm-ag ag eldoc-extension paredit lispxmp open-junk-file helm auto-install recentf-ext sequential-command egg diminish init-loader markdown-mode undo-tree auto-complete)))
+    (magit package-utils elscreen auto-async-byte-compile helm-ag ag eldoc-extension paredit lispxmp open-junk-file helm auto-install recentf-ext sequential-command egg diminish init-loader markdown-mode undo-tree auto-complete)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
