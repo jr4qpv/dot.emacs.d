@@ -42,7 +42,7 @@ Emacs本体のインストール手順は、下記URL参照
 
 利用している外部パッケージ
 -----------------------------
-ELPAからインストールしたもの。
+MELPAからインストールしたもの。
 
 * init-loader
 * undo-tree
@@ -59,6 +59,8 @@ ELPAからインストールしたもの。
 * egg
 * diminish
 * markdown-mode
+* package-utuls
+* magit
 * auto-complete  (有効にしていない)
 * auto-async-byte-compile  (有効にしていない)
 * auto-install  (有効にしていない)
