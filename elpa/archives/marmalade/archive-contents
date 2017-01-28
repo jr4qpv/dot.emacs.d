@@ -1501,6 +1501,9 @@
 	     ((web
 	       (0 3 6)))
 	     "paste text to KDE's pastebin service" single])
+ (passmm .
+	 [(0 2 0)
+	  nil "A minor mode for pass (Password Store). " tar])
  (parscope .
 	   [(0 1 0)
 	    nil "Minor mode for showing the current scope in Lisp-like languages." single])
@@ -1531,7 +1534,7 @@
 		  [(0 8)
 		   nil "Various deletion strategies when editing" single])
  (palimpsest .
-	     [(0 9)
+	     [(1 0)
 	      nil "Various deletion strategies when editing" single])
  (pager-default-keybindings .
 			    [(1 1)
@@ -1675,7 +1678,7 @@
 	       (6 1)))
 	     "basic support for magit links" single])
  (org-journal .
-	      [(1 11 2)
+	      [(1 12 0)
 	       nil "a simple org-mode based journaling mode" single])
  (org-gnome .
 	    [(0 1)
