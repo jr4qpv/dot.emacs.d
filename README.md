@@ -79,13 +79,13 @@ MELPAからインストールしたもの。
 ├── etc                            ･･･起動スクリプトファイルなど
 ├── init.el                        ･･･Emcas設定ファイル（親）
 ├── inits                          ･･･init-loader設定ファイル
-│   ├── 00_environment.el         ･･･番号の小さい順に実行される
+│   ├── 00_environment.el          ･･･番号の小さい順に実行される
 │   ├── 01_backup.el
 │   ├        ･･･
 │   ├── 99_keybind.el
-│   ├── cocoa-emacs-01_ime.el     ･･･macOS専用設定ファイル
+│   ├── cocoa-emacs-01_ime.el      ･･･macOS専用設定ファイル
 │   ├        ･･･
-│   ├── windows-00_custom-set.el  ･･･Window専用設定ファイル
+│   ├── windows-00_custom-set.el   ･･･Window専用設定ファイル
 │   └        ･･･
 └── themes                         ･･･自作テーマ置き場
      └── my-manoj-dark-theme.el
@@ -108,6 +108,7 @@ MELPAからインストールしたもの。
 |F9        |タブ切り換え(elscreen-toggle)                   |
 |C-z k     |タブを閉じる(elscreen-kill)                     |
 |C-z d     |新しいelscreenでdiredを開く(elscreen-dired)     |
+|C-x g     |Gitステータスを確認(magit-status)               |
 
 免責
 ----
