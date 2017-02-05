@@ -1,3 +1,3 @@
 @echo off
 timeout 2
-start C:\msys64\mingw32.exe runemacs -g 86x45
+start C:\msys64\mingw32.exe runemacs %1 %2 %3 %4 %5 %6 %7 %8
