@@ -1,13 +1,13 @@
 ;; server start for emacs-client
 (when window-system                       ; GUI時
   (require 'server)
-  (unless (server-running-p)
+  (unless (eq (server-running-p) 't)
     (server-start)
 
     (defun iconify-emacs-when-server-is-done ()
       (unless server-clients (iconify-frame)))
 
-    ;; 編集が終了したらEmacsをアイコン化する(好みに応じて)
+    ;; 編集が終了vしたらEmacsをアイコン化する(好みに応じて)
 ;;    (add-hook 'server-done-hook 'iconify-emacs-when-server-is-done)
     ;; C-x C-cに割り当てる(好みに応じて)
     (global-set-key (kbd "C-x C-c") 'server-edit)
