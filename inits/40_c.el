@@ -4,6 +4,8 @@
 (defun my-c-mode-common-init ()
   "C, C++ mode set up function"
   (setq tab-width 4)
+;;  (c-set-style "k&r")
+  (c-set-style "stroustrup")
   ;; <- 追加
   )
 
