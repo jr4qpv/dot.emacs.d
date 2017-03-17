@@ -4,14 +4,14 @@ Emacs25 configuration files.
 
 概要
 ----
-Emacs25.1の`~/.emacs.d/`フォルダ、私が使ってる設定ファイル  
+Emacs25の`~/.emacs.d/`フォルダ、私が使ってる設定ファイル  
 macOS, Windows, Linuxで共通
 
 Emacsの初期状態ではお世辞にも使い勝手がいいとは言えませんが、ちょっと手を入れる事で驚くほどモダンで使い勝手が良くなります。  
 本設定から手軽に使い始めてみるのもよいと思いますのでご活用ください。ここから自分の好みに変更していくのもよいです。
 
 基本、よく使われているパッケージを利用していますが、設定については下記ブログでも紹介しています。  
-<http://jr4qpv.hatenablog.com/archive/category/Emacs>
+<http://www.yokoweb.net/tag/emacs/>
 
 利用方法
 ---------
@@ -25,20 +25,20 @@ git clone https://github.com/jr4qpv/dot.emacs.d.git ~/.emacs.d
 -------------------
 macOS, Windows, Linuxで共用です。
 
-#### １）macOS 10.12 -- Emacs25.1 Mac port, ATOK2015
+#### １）macOS 10.12 -- Emacs25 Mac port, ATOK2015
 Emacs本体のインストール手順は、下記URL参照  
-<http://jr4qpv.hatenablog.com/entry/2016/12/13/094231>
+<http://www.yokoweb.net/2016/12/13/macos-emacs-25-install/>
 
 Osaka等幅フォントになるように、アプリケーション→Font Book→Osaka  
 レギュラーを選択し右クリックで「使用停止」して使っています。
 
 #### ２）Windows 10(msys2) -- NTEmacs25.1 + IMEパッチ, ATOK2015
 Emacs本体のインストール手順は、下記URL参照  
-<http://jr4qpv.hatenablog.com/entry/2016/12/23/122533>
+<http://www.yokoweb.net/2016/12/23/msys2-emacs-25-install/>
 
 #### ３）Ubunt 16.04 LTS Server -- Emacs25.1
 Emacs本体のインストール手順は、下記URL参照  
-<http://jr4qpv.hatenablog.com/entry/2016/12/30/131411>
+<http://www.yokoweb.net/2016/12/30/ubuntu-emacs-25-install/>
 
 利用している外部パッケージ
 -----------------------------
@@ -47,8 +47,8 @@ MELPAからインストールしたもの。
 * init-loader
 * undo-tree
 * sequential-command
+* tabbar
 * helm
-* elscreen
 * helm-ag
 * ag
 * eldoc-extension
@@ -61,13 +61,14 @@ MELPAからインストールしたもの。
 * markdown-mode
 * package-utuls
 * magit
+* elscreen  (有効にしていない)
 * auto-complete  (有効にしていない)
 * auto-async-byte-compile  (有効にしていない)
 * auto-install  (有効にしていない)
 
 設定ファイル構成
 ------------------
-フォルダ構成は下記。設定ファイルは[init-loader](http://jr4qpv.hatenablog.com/entry/2017/01/08/171320)を使っているので、`~/.emacs.d/inits/`フォルダに機能分割して記述した複数ファイルで構成される。
+フォルダ構成は下記。設定ファイルは[init-loader](http://www.yokoweb.net/2017/01/08/emacs-init-loader/)を使っているので、`~/.emacs.d/inits/`フォルダに機能分割して記述した複数ファイルで構成される。
 
 ```
 ~/.emacs.d/
@@ -104,10 +105,8 @@ MELPAからインストールしたもの。
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
 |C-x b     |helmでバッファー切り換え（helm-buffers-list)    |
-|C-z C-f   |新しいタブでファイルを開く(elscreen-find-file)  |
-|F9        |タブ切り換え(elscreen-toggle)                   |
-|C-z k     |タブを閉じる(elscreen-kill)                     |
-|C-z d     |新しいelscreenでdiredを開く(elscreen-dired)     |
+|F9        |左のタブへ切り換え(tabbar-backward-tab)         |
+|F10       |右のタブへ切り換え(tabbar-forward-tab)          |
 |C-x g     |Gitステータスを確認(magit-status)               |
 
 免責
@@ -116,7 +115,7 @@ MELPAからインストールしたもの。
 
 作者関連サイト
 ---------------
-* [Around the modern stone age.](http://jr4qpv.hatenablog.com/)
+* [The modern stone age.](http://www.yokoweb.net/)
 
 履歴
 ----

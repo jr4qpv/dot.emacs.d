@@ -1,5 +1,5 @@
 ;;
-;; tabvarの設定
+;; tabbarの設定
 ;;
 (require 'tabbar)
 (tabbar-mode)
