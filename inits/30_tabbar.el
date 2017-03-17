@@ -10,11 +10,12 @@
 
 
 ;;----- キーに割り当てる
-(global-set-key (kbd "<C-tab>") 'tabbar-forward-tab)
-(global-set-key (kbd "<C-S-tab>") 'tabbar-backward-tab)
+;;(global-set-key (kbd "<C-tab>") 'tabbar-forward-tab)
+;;(global-set-key (kbd "<C-S-tab>") 'tabbar-backward-tab)
 (global-set-key (kbd "<f10>") 'tabbar-forward-tab)
 (global-set-key (kbd "<f9>") 'tabbar-backward-tab)
-
+(global-set-key (kbd "M-<right>") 'tabbar-forward-tab)
+(global-set-key (kbd "M-<left>") 'tabbar-backward-tab)
 
 ;;----- 左側のボタンを消す
 (dolist (btn '(tabbar-buffer-home-button
@@ -47,6 +48,39 @@
  :box nil
  )
 
+(when window-system                       ; GUI時
+  ;; 外観変更
+  (set-face-attribute
+   'tabbar-default nil
+   :family "MeiryoKe_Gothic"
+   :background "#34495E"
+   :foreground "#EEEEEE"
+   :height 0.85
+   )
+  (set-face-attribute
+   'tabbar-unselected nil
+   :background "#34495E"
+   :foreground "#EEEEEE"
+   :box nil
+  )
+  (set-face-attribute
+   'tabbar-modified nil
+   :background "#E67E22"
+   :foreground "#EEEEEE"
+   :box nil
+  )
+  (set-face-attribute
+   'tabbar-selected nil
+   :background "#E74C3C"
+   :foreground "#EEEEEE"
+   :box nil)
+  (set-face-attribute
+   'tabbar-button nil
+   :box nil)
+  (set-face-attribute
+   'tabbar-separator nil
+   :height 2.0)
+)
 
 ;;----- 表示するバッファ
 (defun my-tabbar-buffer-list ()
