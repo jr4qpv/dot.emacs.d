@@ -19,7 +19,7 @@
 ;; キーバインド
 (global-set-key (kbd "C-c h") 'helm-mini)
 ;;(global-set-key (kbd "C-x o") 'helm-mini)
-(global-set-key (kbd "<f10>") 'helm-mini)
+;;(global-set-key (kbd "<f11>") 'helm-mini)
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)
 ;;(define-key global-map (kbd "C-x b") 'helm-for-files)
 (define-key global-map (kbd "C-x C-f") 'helm-find-files)
