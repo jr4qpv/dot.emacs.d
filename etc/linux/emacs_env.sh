@@ -1,10 +1,8 @@
 # emacs_env.sh for Ubuntu
-
-if [ `ps ux | grep emacs\ --daemon | wc -l` = 1 ]
-then
-    `emacs --daemon`
-else
+if emacsclient -e "t" > /dev/null 2>&1 ; then
     echo 'Emacs daemon is already running.'
+else
+    emacs --daemon
 fi
 
 export EDITOR='emacsclient -a "" -t'
