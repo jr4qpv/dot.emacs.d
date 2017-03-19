@@ -15,7 +15,7 @@
 (let ((size (cond
 	     ((>= (x-display-pixel-height) 1100) 18)
 	     ((>= (x-display-pixel-height) 900) 16)
-	     (t 12) )
+	     (t 14) )
        ))
   (condition-case err
       (let ((myfont (format "Osaka-%d" size)))
