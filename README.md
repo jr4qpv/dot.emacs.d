@@ -11,7 +11,7 @@ Emacsの初期状態ではお世辞にも使い勝手がいいとは言えませ
 本設定から手軽に使い始めてみるのもよいと思いますのでご活用ください。ここから自分の好みに変更していくのもよいです。
 
 基本、よく使われているパッケージを利用していますが、設定については下記ブログでも紹介しています。  
-<http://www.yokoweb.net/tag/emacs/>
+<https://www.yokoweb.net/tag/emacs/>
 
 利用方法
 ---------
@@ -27,18 +27,18 @@ macOS, Windows, Linuxで共用です。
 
 #### １）macOS 10.12 -- Emacs25 Mac port, ATOK2015
 Emacs本体のインストール手順は、下記URL参照  
-<http://www.yokoweb.net/2016/12/13/macos-emacs-25-install/>
+<https://www.yokoweb.net/2016/12/13/macos-emacs-25-install/>
 
 Osaka等幅フォントになるように、アプリケーション→Font Book→Osaka  
 レギュラーを選択し右クリックで「使用停止」して使っています。
 
 #### ２）Windows 10(msys2) -- NTEmacs25.1 + IMEパッチ, ATOK2015
 Emacs本体のインストール手順は、下記URL参照  
-<http://www.yokoweb.net/2016/12/23/msys2-emacs-25-install/>
+<https://www.yokoweb.net/2016/12/23/msys2-emacs-25-install/>
 
 #### ３）Ubunt 16.04 LTS Server -- Emacs25.1
 Emacs本体のインストール手順は、下記URL参照  
-<http://www.yokoweb.net/2016/12/30/ubuntu-emacs-25-install/>
+<https://www.yokoweb.net/2016/12/30/ubuntu-emacs-25-install/>
 
 利用している外部パッケージ
 -----------------------------
@@ -68,7 +68,7 @@ MELPAからインストールしたもの。
 
 設定ファイル構成
 ------------------
-フォルダ構成は下記。設定ファイルは[init-loader](http://www.yokoweb.net/2017/01/08/emacs-init-loader/)を使っているので、`~/.emacs.d/inits/`フォルダに機能分割して記述した複数ファイルで構成される。
+フォルダ構成は下記。設定ファイルは[init-loader](https://www.yokoweb.net/2017/01/08/emacs-init-loader/)を使っているので、`~/.emacs.d/inits/`フォルダに機能分割して記述した複数ファイルで構成される。
 
 ```
 ~/.emacs.d/
@@ -115,7 +115,7 @@ MELPAからインストールしたもの。
 
 作者関連サイト
 ---------------
-* [The modern stone age.](http://www.yokoweb.net/)
+* [The modern stone age.](https://www.yokoweb.net/)
 
 履歴
 ----
