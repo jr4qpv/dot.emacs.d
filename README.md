@@ -7,7 +7,7 @@ Emacs25 configuration files.
 Emacs25の`~/.emacs.d/`フォルダ、私が使ってる設定ファイル  
 macOS, Windows, Linuxで共通
 
-Emacsの初期状態ではお世辞にも使い勝手がいいとは言えませんが、ちょっと手を入れる事で驚くほどモダンで使い勝手が良くなります。  
+Emacsの初期状態ではお世辞にも使い勝手がいいとは言えないが、ちょっと手を入れる事で驚くほどモダンで使い勝手が良くなります。  
 本設定から手軽に使い始めてみるのもよいと思いますのでご活用ください。ここから自分の好みに変更していくのもよいです。
 
 基本、よく使われているパッケージを利用していますが、設定については下記ブログでも紹介しています。  
@@ -36,9 +36,9 @@ Osaka等幅フォントになるように、アプリケーション→Font Book
 Emacs本体のインストール手順は、下記URL参照  
 <https://www.yokoweb.net/2016/12/23/msys2-emacs-25-install/>
 
-#### ３）Ubunt 16.04 LTS Server -- Emacs25.1
+#### ３）Ubunt 16.04 LTS Server -- Emacs25
 Emacs本体のインストール手順は、下記URL参照  
-<https://www.yokoweb.net/2016/12/30/ubuntu-emacs-25-install/>
+<https://www.yokoweb.net/2017/03/19/emacs-25-apt-install/>
 
 利用している外部パッケージ
 -----------------------------
@@ -100,7 +100,6 @@ MELPAからインストールしたもの。
 |:---------|:-----------------------------------------------|
 |C-h       |一文字消去（delete-backward-char)               |
 |C-t       |ウィンドウ切り換え(other-windows)               |
-|C-c C-SPC |選択リージョンのコピー(kill-ring-saves)         |
 |C-c z     |フレームを最小化(suspend-frame)                 |
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
@@ -117,7 +116,7 @@ MELPAからインストールしたもの。
 ---------------
 * [The modern stone age.](https://www.yokoweb.net/)
 
-履歴
+来歴
 ----
 * 2016/12/12 作業開始
 * 2017/01/24 公開
