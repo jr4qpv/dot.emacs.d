@@ -32,7 +32,7 @@
 ;;----- タブの色（CUIの時。GUIの時は後でカラーテーマが適用）
 (set-face-attribute
  'tabbar-default nil
- :background "brightblack"
+ :background "blue"
  :foreground "white"
  )
 (set-face-attribute
