@@ -44,27 +44,29 @@ Emacs本体のインストール手順は、下記URL参照
 -----------------------------
 MELPAからインストールしたもの。
 
-* init-loader
-* undo-tree
-* sequential-command
-* tabbar
-* helm
-* helm-ag
-* ag
-* eldoc-extension
-* paredit
-* lispxmp
-* open-junk-file
-* recentf-ext
-* egg
-* diminish
-* markdown-mode
-* package-utuls
-* magit
-* elscreen  (有効にしていない)
-* auto-complete  (有効にしていない)
-* auto-async-byte-compile  (有効にしていない)
-* auto-install  (有効にしていない)
+- init-loader
+- undo-tree
+- sequential-command
+- tabbar
+- helm
+- helm-ag
+- ag
+- eldoc-extension
+- paredit
+- lispxmp
+- open-junk-file
+- package-utils
+- recentf-ext
+- egg
+- diminish
+- markdown-mode
+- package-utuls
+- magit
+- migemo
+- elscreen  (有効にしていない)
+- auto-complete  (有効にしていない)
+- auto-async-byte-compile  (有効にしていない)
+- auto-install  (有効にしていない)
 
 設定ファイル構成
 ------------------
@@ -100,6 +102,8 @@ MELPAからインストールしたもの。
 |:---------|:-----------------------------------------------|
 |C-h       |一文字消去（delete-backward-char)               |
 |C-t       |ウィンドウ切り換え(other-windows)               |
+|C-a C-a   |バッファー先頭に移動                            |
+|C-e C-e   |バッファー末尾に移動                            |
 |C-c z     |フレームを最小化(suspend-frame)                 |
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
