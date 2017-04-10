@@ -17,3 +17,5 @@
 ;; find-functionをキー割り当てする
 (find-function-setup-keys)
 
+;; カーソル移動を論理行にする
+(setq line-move-visual nil)
