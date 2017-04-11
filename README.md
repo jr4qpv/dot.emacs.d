@@ -44,29 +44,31 @@ Emacs本体のインストール手順は、下記URL参照
 -----------------------------
 MELPAからインストールしたもの。
 
-- init-loader
-- undo-tree
-- sequential-command
-- tabbar
+- ag
+- diminish
+- egg
+- eldoc-extension
 - helm
 - helm-ag
-- ag
-- eldoc-extension
-- paredit
+- init-loader
 - lispxmp
+- magit
+- markdown-mode
+- migemo
 - open-junk-file
 - package-utils
+- paredit
 - recentf-ext
-- egg
-- diminish
-- markdown-mode
-- package-utuls
-- magit
-- migemo
-- elscreen  (有効にしていない)
-- auto-complete  (有効にしていない)
-- auto-async-byte-compile  (有効にしていない)
-- auto-install  (有効にしていない)
+- sequential-command
+- tabbar
+- undo-tree
+
+インストールしてあるが有効にしてないもの。
+
+- auto-complete
+- auto-async-byte-compile
+- auto-install
+- elscreen
 
 設定ファイル構成
 ------------------
@@ -96,7 +98,7 @@ MELPAからインストールしたもの。
 
 カスタマイズした主なキー定義
 -------------------------------
-カスタマイズしてよく使うキー覧が下記。
+カスタマイズしたよく使うキー覧が下記。
 
 |キー      | 説明                                           |
 |:---------|:-----------------------------------------------|
@@ -108,9 +110,11 @@ MELPAからインストールしたもの。
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
 |C-x b     |helmでバッファー切り換え（helm-buffers-list)    |
+|C-x g     |Gitステータスを確認(magit-status)               |
+|C-z       |左のタブへ切り換え(tabbar-backward-tab)         |
+|C-o       |右のタブへ切り換え(tabbar-forward-tab)          |
 |F9        |左のタブへ切り換え(tabbar-backward-tab)         |
 |F10       |右のタブへ切り換え(tabbar-forward-tab)          |
-|C-x g     |Gitステータスを確認(magit-status)               |
 
 免責
 ----
@@ -118,7 +122,8 @@ MELPAからインストールしたもの。
 
 作者関連サイト
 ---------------
-* [The modern stone age.](https://www.yokoweb.net/)
+- [GitHub - jr4qpv](https://github.com/jr4qpv/)
+- [The modern stone age.](https://www.yokoweb.net/)
 
 来歴
 ----
