@@ -32,8 +32,9 @@ Emacs本体のインストール手順は、下記URL参照
 Osaka等幅フォントになるように、アプリケーション→Font Book→Osaka  
 レギュラーを選択し右クリックで「使用停止」して使っています。
 
-#### ２）Windows 10(msys2) -- NTEmacs25.1 + IMEパッチ, ATOK2015
+#### ２）Windows 10(msys2) -- NTEmacs25 + IMEパッチ, ATOK2015
 Emacs本体のインストール手順は、下記URL参照  
+<https://www.yokoweb.net/2017/05/31/msys2-emacs-25-2-install/>  
 <https://www.yokoweb.net/2016/12/23/msys2-emacs-25-install/>
 
 #### ３）Ubunt 16.04 LTS Server -- Emacs25
@@ -45,6 +46,7 @@ Emacs本体のインストール手順は、下記URL参照
 MELPAからインストールしたもの。
 
 - ag
+- auto-async-byte-compile
 - diminish
 - egg
 - eldoc-extension
@@ -66,7 +68,6 @@ MELPAからインストールしたもの。
 インストールしてあるが有効にしてないもの。
 
 - auto-complete
-- auto-async-byte-compile
 - auto-install
 - elscreen
 
