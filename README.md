@@ -112,8 +112,8 @@ MELPAからインストールしたもの。
 |C-x f     |helmからファイルを開く（helm-find-file)         |
 |C-x b     |helmでバッファー切り換え（helm-buffers-list)    |
 |C-x g     |Gitステータスを確認(magit-status)               |
-|C-z       |左のタブへ切り換え(tabbar-backward-tab)         |
-|C-o       |右のタブへ切り換え(tabbar-forward-tab)          |
+|C-z C-p   |左のタブへ切り換え(tabbar-backward-tab)         |
+|C-z C-n   |右のタブへ切り換え(tabbar-forward-tab)          |
 |F9        |左のタブへ切り換え(tabbar-backward-tab)         |
 |F10       |右のタブへ切り換え(tabbar-forward-tab)          |
 

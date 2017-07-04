@@ -14,8 +14,10 @@
 ;;(global-set-key (kbd "<C-S-tab>") 'tabbar-backward-tab)
 (global-set-key (kbd "<f10>") 'tabbar-forward-tab)
 (global-set-key (kbd "<f9>") 'tabbar-backward-tab)
-(global-set-key (kbd "C-o") 'tabbar-forward-tab)
-(global-set-key (kbd "C-z") 'tabbar-backward-tab)
+(global-unset-key (kbd "C-z"))
+(global-set-key (kbd "C-z C-n") 'tabbar-forward-tab)
+(global-set-key (kbd "C-z C-p") 'tabbar-backward-tab)
+
 
 ;;----- 左側のボタンを消す
 (dolist (btn '(tabbar-buffer-home-button
