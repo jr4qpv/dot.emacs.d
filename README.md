@@ -108,6 +108,7 @@ MELPAからインストールしたもの。
 |C-a C-a   |バッファー先頭に移動                            |
 |C-e C-e   |バッファー末尾に移動                            |
 |C-c z     |フレームを最小化(suspend-frame)                 |
+|C-o       |ファイル履歴からファイルを開く（helm-mini)      |
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
 |C-x b     |helmでバッファー切り換え（helm-buffers-list)    |

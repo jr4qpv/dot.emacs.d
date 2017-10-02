@@ -17,6 +17,7 @@
 
 
 ;; キーバインド
+(global-set-key (kbd "C-o") 'helm-mini)
 (global-set-key (kbd "C-c h") 'helm-mini)
 ;;(global-set-key (kbd "C-x o") 'helm-mini)
 ;;(global-set-key (kbd "<f11>") 'helm-mini)
