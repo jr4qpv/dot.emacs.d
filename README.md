@@ -52,6 +52,7 @@ MELPAからインストールしたもの。
 - eldoc-extension
 - helm
 - helm-ag
+- helm-descbinds
 - init-loader
 - lispxmp
 - magit
