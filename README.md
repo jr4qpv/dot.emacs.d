@@ -103,8 +103,10 @@ MELPAからインストールしたもの。
 
 |キー      | 説明                                           |
 |:---------|:-----------------------------------------------|
+|C-c ?     |ヘルプ(help-command)                            |
 |C-h       |一文字消去（delete-backward-char)               |
 |C-t       |ウィンドウ切り換え(other-windows)               |
+|C-c l     |行折り返し表示切り替え(toggle-truncate-lines)   |
 |C-a C-a   |バッファー先頭に移動                            |
 |C-e C-e   |バッファー末尾に移動                            |
 |C-c z     |フレームを最小化(suspend-frame)                 |
