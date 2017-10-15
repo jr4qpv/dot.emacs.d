@@ -114,6 +114,8 @@ MELPAからインストールしたもの。
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
 |C-x b     |helmでバッファー切り換え（helm-buffers-list)    |
+|<help> b  |helmでキーバインド一覧表示（helm-descbinds)     |
+|M-y       |helmで履歴からペースト（helm-show-kill-ring)    |
 |C-x g     |Gitステータスを確認(magit-status)               |
 |C-z C-p   |左のタブへ切り換え(tabbar-backward-tab)         |
 |C-z C-n   |右のタブへ切り換え(tabbar-forward-tab)          |
