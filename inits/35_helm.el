@@ -18,13 +18,11 @@
 
 ;; キーバインド
 (global-set-key (kbd "C-o") 'helm-mini)
+(global-set-key (kbd "C-c a") 'helm-do-ag)
 (global-set-key (kbd "C-c h") 'helm-mini)
-;;(global-set-key (kbd "C-x o") 'helm-mini)
-;;(global-set-key (kbd "<f11>") 'helm-mini)
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)
 ;;(define-key global-map (kbd "C-x b") 'helm-for-files)
 (define-key global-map (kbd "C-x C-f") 'helm-find-files)
 (define-key global-map (kbd "M-x")     'helm-M-x)
 (define-key global-map (kbd "M-y")     'helm-show-kill-ring)
 (define-key global-map (kbd "<help> b") 'helm-descbinds)
-
