@@ -41,6 +41,11 @@ Emacs本体のインストール手順は、下記URL参照
 Emacs本体のインストール手順は、下記URL参照  
 <https://www.yokoweb.net/2017/03/19/emacs-25-apt-install/>
 
+elscreenへの切り替え
+-----------------------
+本設定のタブエディター機能は、デフォルトでは「tabbar」を利用しています。
+好みで「elscreen」の方がよい場合は、gitからelscreenブランチに切り替える事で、elscreenに変更できます。
+
 利用している外部パッケージ
 -----------------------------
 MELPAからインストールしたもの。
@@ -66,11 +71,14 @@ MELPAからインストールしたもの。
 - tabbar
 - undo-tree
 
+elscreenブランチで有効になるもの
+
+- elscreen
+
 インストールしてあるが有効にしてないもの。
 
 - auto-complete
 - auto-install
-- elscreen
 
 設定ファイル構成
 ------------------
@@ -121,8 +129,20 @@ MELPAからインストールしたもの。
 |C-x g     |Gitステータスを確認(magit-status)               |
 |C-z C-p   |左のタブへ切り換え(tabbar-backward-tab)         |
 |C-z C-n   |右のタブへ切り換え(tabbar-forward-tab)          |
-|F7        |左のタブへ切り換え(tabbar-backward-tab)         |
-|F8        |右のタブへ切り換え(tabbar-forward-tab)          |
+|F9        |左のタブへ切り換え(tabbar-backward-tab)         |
+|F10       |右のタブへ切り換え(tabbar-forward-tab)          |
+
+### elscreenブランチにした時の関連キー定義
+
+|キー      | 説明                               　　　     　　|
+|:---------|:--------------------------------------------------|
+|C-z c     | 新規スクリーンを作成して移動する(elscreen-create) |
+|C-z k     | 現在のスクリーンを閉じる(elscreen-kill)           |
+|C-z p     | 前のスクリーンへ(elscreen-previous)               |
+|C-z n     | 次のスクリーンへ(elscreen-next)                   |
+|C-z a     | 前と次のスクリーンをトグル(elscreen-toggle)       |
+|C-z [0-9] | 番号のスクリーンへ(elscreen-jump-[0-9])           |
+|C-z ?     | ヘルプを表示する                                  |
 
 免責
 ----
@@ -137,3 +157,4 @@ MELPAからインストールしたもの。
 ----
 * 2016/12/12 作業開始
 * 2017/01/24 公開
+* 2017/10/24 elscreenブランチの追加
