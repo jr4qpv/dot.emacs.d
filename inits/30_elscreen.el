@@ -31,6 +31,7 @@
         ("*WL:Message*" . "Wanderlust")))
 
 ;; キーバインド
+(global-set-key (kbd "<f7>") 'elscreen-previous)
+(global-set-key (kbd "<f8>") 'elscreen-next)
 (global-set-key (kbd "<f9>") 'elscreen-toggle)
 (global-set-key (kbd "<f11>") 'elscreen-kill)
-
