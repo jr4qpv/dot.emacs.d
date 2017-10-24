@@ -121,8 +121,8 @@ MELPAからインストールしたもの。
 |C-x g     |Gitステータスを確認(magit-status)               |
 |C-z C-p   |左のタブへ切り換え(tabbar-backward-tab)         |
 |C-z C-n   |右のタブへ切り換え(tabbar-forward-tab)          |
-|F9        |左のタブへ切り換え(tabbar-backward-tab)         |
-|F10       |右のタブへ切り換え(tabbar-forward-tab)          |
+|F7        |左のタブへ切り換え(tabbar-backward-tab)         |
+|F8        |右のタブへ切り換え(tabbar-forward-tab)          |
 
 免責
 ----

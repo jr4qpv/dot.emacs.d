@@ -12,8 +12,8 @@
 ;;----- キーに割り当てる
 ;;(global-set-key (kbd "<C-tab>") 'tabbar-forward-tab)
 ;;(global-set-key (kbd "<C-S-tab>") 'tabbar-backward-tab)
-(global-set-key (kbd "<f10>") 'tabbar-forward-tab)
-(global-set-key (kbd "<f9>") 'tabbar-backward-tab)
+(global-set-key (kbd "<f8>") 'tabbar-forward-tab)
+(global-set-key (kbd "<f7>") 'tabbar-backward-tab)
 (global-unset-key (kbd "C-z"))
 (global-set-key (kbd "C-z C-n") 'tabbar-forward-tab)
 (global-set-key (kbd "C-z C-p") 'tabbar-backward-tab)
