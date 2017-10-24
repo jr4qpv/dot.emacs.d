@@ -21,6 +21,11 @@ Emacsの初期状態ではお世辞にも使い勝手がいいとは言えない
 git clone https://github.com/jr4qpv/dot.emacs.d.git ~/.emacs.d
 ```
 
+### elscreenへの切り替え
+本設定のタブエディター機能は、デフォルトでは「tabbar」を利用しています。
+好みで「elscreen」の方がよい場合は、gitからelscreenブランチに切り替える事で、elscreenに変更できる。
+
+
 動作確認したEmacs
 -------------------
 macOS, Windows, Linuxで共用です。
@@ -40,11 +45,6 @@ Emacs本体のインストール手順は、下記URL参照
 #### ３）Ubunt 16.04 LTS Server -- Emacs25
 Emacs本体のインストール手順は、下記URL参照  
 <https://www.yokoweb.net/2017/03/19/emacs-25-apt-install/>
-
-elscreenへの切り替え
------------------------
-本設定のタブエディター機能は、デフォルトでは「tabbar」を利用しています。
-好みで「elscreen」の方がよい場合は、gitからelscreenブランチに切り替える事で、elscreenに変更できます。
 
 利用している外部パッケージ
 -----------------------------
