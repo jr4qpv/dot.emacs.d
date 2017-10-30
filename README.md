@@ -60,6 +60,7 @@ MELPAからインストールしたもの。
 - helm-descbinds
 - init-loader
 - lispxmp
+- lua-mode
 - magit
 - markdown-mode
 - migemo
