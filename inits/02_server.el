@@ -25,7 +25,5 @@
     (if (eq window-system 'mac)
 	;; 起動時に最小化する
 	(add-hook 'after-init-hook 'iconify-emacs-when-server-is-done)
-      
-	;; 終了時にyes/noの問い合わせ
-	(setq confirm-kill-emacs 'yes-or-no-p) ) 
+      ) 
   )
