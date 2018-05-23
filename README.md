@@ -28,23 +28,35 @@ git clone https://github.com/jr4qpv/dot.emacs.d.git ~/.emacs.d
 
 動作確認したEmacs
 -------------------
-macOS, Windows, Linuxで共用です。
+macOS, Windows, Linuxで共用。
 
-#### １）macOS 10.12 -- Emacs25 Mac port, ATOK2015
+#### １）macOS 10.13 -- Emacs26 Mac port, ATOK2017
 Emacs本体のインストール手順は、下記URL参照  
-<https://www.yokoweb.net/2016/12/13/macos-emacs-25-install/>
+<https://www.yokoweb.net/2016/12/13/macos-emacs-25-install/>__
+<https://www.yokoweb.net/2018/04/26/macos-emacs-26-1-update/>
 
-Osaka等幅フォントになるように、アプリケーション→Font Book→Osaka  
+* Osaka等幅フォントになるように、アプリケーション→Font Book→Osaka  
 レギュラーを選択し右クリックで「使用停止」して使っています。
 
-#### ２）Windows 10(msys2) -- NTEmacs25 + IMEパッチ, ATOK2015
+#### ２）Windows 10(msys2) -- NTEmacs25 + IMEパッチ, ATOK2017
 Emacs本体のインストール手順は、下記URL参照  
-<https://www.yokoweb.net/2017/05/31/msys2-emacs-25-2-install/>  
-<https://www.yokoweb.net/2016/12/23/msys2-emacs-25-install/>
+<https://www.yokoweb.net/2017/11/08/msys2-emacs-25-3-build/>
 
-#### ３）Ubunt 16.04 LTS Server -- Emacs25
+#### ３）Ubunt 18.04/16.04 LTS Server -- Emacs25
 Emacs本体のインストール手順は、下記URL参照  
+<https://www.yokoweb.net/2018/05/03/ubuntu-18-04-emacs25/>  
 <https://www.yokoweb.net/2017/03/19/emacs-25-apt-install/>
+
+#### 4）Ubunt 18.04/16.04 LTS Desktop（GUI） -- Emacs25
+Emacs本体のインストール手順は、下記URL参照  
+<https://www.yokoweb.net/2018/05/07/ubuntu-18_04-desktop-emacs25/>  
+<https://www.yokoweb.net/2018/03/17/ubuntu-desktop-emacs-25/>
+
+#### 5）Windwos10 WSL Ubunt -- Emacs25
+Emacs本体のインストール手順は、下記URL参照  
+<https://www.yokoweb.net/2018/05/15/windows10-wsl-ubuntu-18_04-install/>  
+<https://www.yokoweb.net/2018/02/22/windows10-wsl-emacs25/>
+
 
 利用している外部パッケージ
 -----------------------------
