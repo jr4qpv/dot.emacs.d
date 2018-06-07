@@ -3,6 +3,7 @@
   (require 'server)
   (unless (eq (server-running-p) 't)
     (server-start)
+    (setq server-socket-dir "~/.emacs.d/server")
 
     (defun iconify-emacs-when-server-is-done ()
       (unless server-clients (iconify-frame)))
