@@ -1,10 +1,10 @@
 dot.emacs.d
 ============
-Emacs25 configuration files.
+Emacs configuration files.
 
 概要
 ----
-Emacs25の`~/.emacs.d/`フォルダ、私が使ってる設定ファイル  
+Emacs25/26の「`~/.emacs.d/`」フォルダ、私が使ってる設定ファイル  
 macOS, Windows, Linuxで共通
 
 Emacsの初期状態ではお世辞にも使い勝手がいいとは言えないが、ちょっと手を入れる事で驚くほどモダンで使い勝手が良くなります。  
@@ -15,7 +15,7 @@ Emacsの初期状態ではお世辞にも使い勝手がいいとは言えない
 
 利用方法
 ---------
-コンソールから下記コマンドで、設定ファイル一式を`~/.emacs.d/`に取得。
+コンソールから下記コマンドで、設定ファイル一式を `~/.emacs.d/` に取得。
 
 ```
 git clone https://github.com/jr4qpv/dot.emacs.d.git ~/.emacs.d
@@ -28,23 +28,17 @@ git clone https://github.com/jr4qpv/dot.emacs.d.git ~/.emacs.d
 
 動作確認したEmacs
 -------------------
-macOS, Windows, Linuxで共用です。
+macOS, Windows, Linuxで共用。
 
-#### １）macOS 10.12 -- Emacs25 Mac port, ATOK2015
+1. macOS 10.13 -- Emacs26 Mac port, ATOK2017
+2. Windows 10(msys2) -- NTEmacs25 + IMEパッチ, ATOK2017
+3. Ubunt 18.04/16.04 LTS Server -- Emacs25
+4. Ubunt 18.04/16.04 LTS Desktop（GUI） -- Emacs25
+5. Windwos10 WSL Ubunt/Ubuntu 18.04 -- Emacs25
+
 Emacs本体のインストール手順は、下記URL参照  
-<https://www.yokoweb.net/2016/12/13/macos-emacs-25-install/>
+<https://www.yokoweb.net/2017/04/01/emacs-macos-msys2-ubuntu/>
 
-Osaka等幅フォントになるように、アプリケーション→Font Book→Osaka  
-レギュラーを選択し右クリックで「使用停止」して使っています。
-
-#### ２）Windows 10(msys2) -- NTEmacs25 + IMEパッチ, ATOK2015
-Emacs本体のインストール手順は、下記URL参照  
-<https://www.yokoweb.net/2017/05/31/msys2-emacs-25-2-install/>  
-<https://www.yokoweb.net/2016/12/23/msys2-emacs-25-install/>
-
-#### ３）Ubunt 16.04 LTS Server -- Emacs25
-Emacs本体のインストール手順は、下記URL参照  
-<https://www.yokoweb.net/2017/03/19/emacs-25-apt-install/>
 
 利用している外部パッケージ
 -----------------------------

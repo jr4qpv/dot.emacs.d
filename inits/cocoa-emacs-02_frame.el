@@ -11,14 +11,14 @@
 
 ;; モニタ解像度に応じてフォントサイズを変える
 ;; See: http://qiita.com/syohex/items/7b8dccd8682d7db9cf5c
-;; ※高さが1100以上の場合はフォントサイズを18,それ未満は16にする
+;; ※高さが1100以上の場合はフォントサイズを15,それ未満は13にする
 (let ((size (cond
-	     ((>= (x-display-pixel-height) 1100) 18)
-	     ((>= (x-display-pixel-height) 900) 16)
-	     (t 15) )
+	     ((>= (x-display-pixel-height) 1100) 15)
+	     ((>= (x-display-pixel-height) 900) 13)
+	     (t 12) )
        ))
   (condition-case err
-      (let ((myfont (format "Osaka-%d" size)))
+      (let ((myfont (format "Monaco-%d" size)))
     (set-frame-font myfont)
     (add-to-list 'initial-frame-alist `(font . ,myfont)))
     (error (message "%s" err))))
