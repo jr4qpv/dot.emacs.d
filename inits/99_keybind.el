@@ -26,5 +26,6 @@
 
 ;; macOS
 (when (eq system-type 'darwin)
-  (setq ns-command-modifier (quote meta)))
-
+  (setq ns-command-modifier (quote meta))
+  (define-key global-map [?¥] [?\\])
+  )
