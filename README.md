@@ -122,10 +122,8 @@ elscreenブランチで有効になるもの
 |<help> b  |helmでキーバインド一覧表示（helm-descbinds)     |
 |M-y       |helmで履歴からペースト（helm-show-kill-ring)    |
 |C-x g     |Gitステータスを確認(magit-status)               |
-|C-z C-p   |左のタブへ切り換え(tabbar-backward-tab)         |
-|C-z C-n   |右のタブへ切り換え(tabbar-forward-tab)          |
-|C-c b     |左のタブへ切り換え(tabbar-backward-tab)         |
-|C-c f     |右のタブへ切り換え(tabbar-forward-tab)          |
+|C-z p     |左のタブへ切り換え(tabbar-backward-tab)         |
+|C-z n     |右のタブへ切り換え(tabbar-forward-tab)          |
 |F7        |左のタブへ切り換え(tabbar-backward-tab)         |
 |F8        |右のタブへ切り換え(tabbar-forward-tab)          |
 
