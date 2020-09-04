@@ -3,6 +3,7 @@
 if [ -v DISPLAY ]; then
   export EDITOR='emacsclient -n'
   alias e=${EDITOR}
+  alias em='emacs -nw'
 else    
   if emacsclient -e "t" > /dev/null 2>&1 ; then
     echo 'Emacs daemon is already running.'
