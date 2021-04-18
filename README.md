@@ -113,6 +113,8 @@ elscreenブランチで有効になるもの
 |C-c l     |行折り返し表示切り替え(toggle-truncate-lines)   |
 |C-a C-a   |バッファー先頭に移動                            |
 |C-e C-e   |バッファー末尾に移動                            |
+|C-c C-r   |バッファー先頭に移動(beginning-of-buffer)       |
+|C-c C-v   |バッファー末尾に移動(end-of-buffer)             |
 |C-c z     |フレームを最小化(suspend-frame)                 |
 |C-c a     |ag検索(helm-do-ag)                              |
 |C-o       |ファイル履歴からファイルを開く（helm-mini)      |

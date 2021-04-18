@@ -7,6 +7,10 @@
 (global-set-key (kbd "C-h") 'delete-backward-char)
 (global-set-key (kbd "C-c ?") 'help-command)
 
+;; バッファーの先頭/末尾への移動
+(global-set-key (kbd "C-c C-r") 'beginning-of-buffer)
+(global-set-key (kbd "C-c C-v") 'end-of-buffer)
+
 ;; キーバインド定義
 ;;(define-key global-map (kbd "C-z") 'scroll-down-command)
 (define-key global-map (kbd "C-c z") 'suspend-frame)
