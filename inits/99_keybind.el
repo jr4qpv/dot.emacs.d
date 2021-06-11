@@ -8,6 +8,8 @@
 (global-set-key (kbd "C-c ?") 'help-command)
 
 ;; バッファーの先頭/末尾への移動
+;;(global-set-key (kbd "C-c C-a") 'beginning-of-buffer)
+(global-set-key (kbd "C-c C-e") 'end-of-buffer)
 (global-set-key (kbd "C-c C-r") 'beginning-of-buffer)
 (global-set-key (kbd "C-c C-v") 'end-of-buffer)
 

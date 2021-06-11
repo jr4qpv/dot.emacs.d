@@ -15,6 +15,8 @@
 (global-set-key (kbd "<f8>") 'tabbar-forward-tab)
 (global-set-key (kbd "<f7>") 'tabbar-backward-tab)
 (global-unset-key (kbd "C-z"))
+(global-set-key (kbd "C-c C-.") 'tabbar-forward-tab)
+(global-set-key (kbd "C-c C-,") 'tabbar-backward-tab)
 (global-set-key (kbd "C-z n") 'tabbar-forward-tab)
 (global-set-key (kbd "C-z p") 'tabbar-backward-tab)
 (global-set-key (kbd "C-z C-n") 'tabbar-forward-tab)

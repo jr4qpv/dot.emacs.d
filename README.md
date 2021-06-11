@@ -121,9 +121,11 @@ elscreenブランチで有効になるもの
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
 |C-x b     |helmでバッファー切り換え（helm-buffers-list)    |
-|<help> b  |helmでキーバインド一覧表示（helm-descbinds)     |
+|<help\> b |helmでキーバインド一覧表示（helm-descbinds)     |
 |M-y       |helmで履歴からペースト（helm-show-kill-ring)    |
 |C-x g     |Gitステータスを確認(magit-status)               |
+|C-c C-,   |左のタブへ切り換え(tabbar-backward-tab)         |
+|C-c C-.   |右のタブへ切り換え(tabbar-forward-tab)          |
 |C-z p     |左のタブへ切り換え(tabbar-backward-tab)         |
 |C-z n     |右のタブへ切り換え(tabbar-forward-tab)          |
 |F7        |左のタブへ切り換え(tabbar-backward-tab)         |
