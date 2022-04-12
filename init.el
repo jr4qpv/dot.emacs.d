@@ -1,3 +1,8 @@
+;;Package cl is deprecatedが出されないための対策
+(setq byte-compile-warnings '(cl-functions))
+;;Emacs @28用void: browse-url-mosaic-program対策
+(setq browse-url-mosaic-program nil)
+
 ;;
 ;; hostごとの設定があれば読み込む
 ;;
@@ -9,8 +14,8 @@
 ;; パッケージ管理(package.el)の設定
 ;;
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+;;(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
 
 ;;

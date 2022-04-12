@@ -17,7 +17,7 @@
 
 
 ;; キーバインド
-(global-set-key (kbd "C-o") 'helm-mini)
+(global-set-key (kbd "C-o") 'helm-recentf)
 (global-set-key (kbd "C-c a") 'helm-do-ag)
 (global-set-key (kbd "C-c h") 'helm-mini)
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)

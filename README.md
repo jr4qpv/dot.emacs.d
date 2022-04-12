@@ -4,7 +4,7 @@ Emacs configuration files.
 
 概要
 ----
-Emacs25/26の「`~/.emacs.d/`」フォルダ、私が使ってる設定ファイル  
+Emacs25/26/27/28の「`~/.emacs.d/`」フォルダ、私が使ってる設定ファイル  
 macOS, Windows, Linuxで共通
 
 Emacsの初期状態ではお世辞にも使い勝手がいいとは言えないが、ちょっと手を入れる事で驚くほどモダンで使い勝手が良くなります。  
@@ -45,7 +45,6 @@ Emacs本体のインストール手順は、下記URL参照
 MELPAからインストールしたもの。
 
 - ag
-- auto-async-byte-compile
 - diminish
 - egg
 - eldoc-extension
@@ -72,6 +71,7 @@ elscreenブランチで有効になるもの
 
 インストールしてあるが有効にしてないもの。
 
+- auto-async-byte-compile
 - auto-complete
 - auto-install
 
@@ -117,7 +117,7 @@ elscreenブランチで有効になるもの
 |C-z C-e   |バッファー末尾に移動(end-of-buffer)             |
 |C-c z     |フレームを最小化(suspend-frame)                 |
 |C-c a     |ag検索(helm-do-ag)                              |
-|C-o       |ファイル履歴からファイルを開く（helm-mini)      |
+|C-o       |ファイル履歴からファイルを開く（helm-recentf)    |
 |C-c h     |ファイル履歴からファイルを開く（helm-mini)      |
 |C-x f     |helmからファイルを開く（helm-find-file)         |
 |C-x b     |helmでバッファー切り換え（helm-buffers-list)    |
@@ -157,3 +157,4 @@ elscreenブランチで有効になるもの
 * 2016/12/12 作業開始
 * 2017/01/24 公開
 * 2017/10/24 elscreenブランチの追加
+* 2022/04/12 *.elcの削除
