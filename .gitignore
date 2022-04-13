@@ -2,6 +2,7 @@
 local/
 server/
 auto-save-list/
+eln-cache/
 eshell/
 etc/log/*.log
 kkcrc
