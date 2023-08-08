@@ -1,6 +1,7 @@
 ;;; helm
 ;;(package-install 'helm)
-(require 'helm-config)
+(require 'helm)
+;;(require 'helm-config)
 (helm-mode 1)
 ;;(helm-migemo-mode 1)
 
