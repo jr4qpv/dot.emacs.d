@@ -46,7 +46,6 @@ MELPAからインストールしたもの。
 
 - ag
 - diminish
-- egg
 - eldoc-extension
 - helm
 - helm-ag
