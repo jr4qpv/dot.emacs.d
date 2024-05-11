@@ -3,10 +3,26 @@
 ;;
 
 ;; (set-language-environment "UTF-8") ;; UTF-8 でも問題ないので適宜コメントアウトしてください
+
+;; tr-ime
+(tr-ime-standard-install)
+
+;; W32-IME
 (setq default-input-method "W32-IME")
 (setq-default w32-ime-mode-line-state-indicator "[--]")
 (setq w32-ime-mode-line-state-indicator-list '("[--]" "[あ]" "[--]"))
-;; (w32-ime-initialize)
+(w32-ime-initialize)
+
+;; IME 制御（yes/no などの入力の時に IME を off にする）
+(wrap-function-to-control-ime 'universal-argument t nil)
+(wrap-function-to-control-ime 'read-string nil nil)
+(wrap-function-to-control-ime 'read-char nil nil)
+(wrap-function-to-control-ime 'read-from-minibuffer nil nil)
+(wrap-function-to-control-ime 'y-or-n-p nil nil)
+(wrap-function-to-control-ime 'yes-or-no-p nil nil)
+(wrap-function-to-control-ime 'map-y-or-n-p nil nil)
+(wrap-function-to-control-ime 'register-read-with-preview nil nil)
+
 ;; 日本語入力時にカーソルの色を変える設定 (色は適宜変えてください)
 (global-set-key [kanji] 'toggle-input-method)
 (add-hook 'w32-ime-on-hook '(lambda () (set-cursor-color "coral3")))
