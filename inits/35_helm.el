@@ -8,10 +8,10 @@
 ;; 検索エンジンをripgrepに変更する
 (custom-set-variables
  '(helm-ag-base-command "rg --no-heading --line-number --color never")
- `(helm-ag-success-exit-status '(0 2)))
+ '(helm-ag-success-exit-status '(0 2)))
 
-;;(setq helm-ag-base-command "rg --no-heading")
-;;(setq helm-ag-success-exit-status '(0 2))
+(setq helm-ag-insert-at-point 'symbol)
+(setq ripgrep-arguments '("-S"))
 
 ;; 候補表示画面で改行しないようにする
 ;;(setq helm-truncate-lines t)
@@ -32,7 +32,10 @@
 (global-set-key (kbd "C-o") 'helm-recentf)
 (global-set-key (kbd "C-c a") 'helm-do-ag)
 (global-set-key (kbd "C-c h") 'helm-mini)
+
 (global-set-key (kbd "M-G") 'helm-ag)
+;;(global-set-key (kbd "M-G") 'ripgrep-regexp)
+
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)
 ;;(define-key global-map (kbd "C-x b") 'helm-for-files)
 (define-key global-map (kbd "C-x C-f") 'helm-find-files)
