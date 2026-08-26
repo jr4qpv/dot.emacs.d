@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;; 初期フレームの設定
 (setq initial-frame-alist
       (append (list

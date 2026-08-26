@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;; server start for emacs-client
 (when window-system                       ; GUI時
   (require 'server)

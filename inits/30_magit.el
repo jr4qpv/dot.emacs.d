@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; magitの設定
 
 ;; キーバインド

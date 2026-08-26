@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; open-junk-file.el --- Open a junk (memo) file to try-and-error
 
 ;; $Time-stamp: <2016-09-13 10:59:40 rubikitch>$

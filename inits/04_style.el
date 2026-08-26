@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;; 対応するカッコを強調表示
 (show-paren-mode t)
 

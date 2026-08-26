@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;; ロックファイル / バックアップファイルを作成しない
 (setq create-lockfiles nil)
 (setq make-backup-files nil)

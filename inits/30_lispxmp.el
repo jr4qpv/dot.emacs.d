@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;;式の評価結果を注釈するための設定(lispxmp.el)
 ;; (M-x package-install lispxmp)
 (require 'lispxmp)

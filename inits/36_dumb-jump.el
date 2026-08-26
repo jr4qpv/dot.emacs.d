@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 (require 'dumb-jump)
 (setq dumb-jump-selector 'helm) ;; 候補選択をhelmに任せます
 ;; これをしないとホームディレクトリ以下が検索対象になる

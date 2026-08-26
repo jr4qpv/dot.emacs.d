@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;; コンパイル時に画面スクロールする
 (setq compilation-scroll-output t)
 

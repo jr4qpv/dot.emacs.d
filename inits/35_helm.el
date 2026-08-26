@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; helm
 ;;(package-install 'helm)
 (require 'helm)

@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;;括弧の対応を保持して編集する設定(pareedit.el)
 ;; (M-x package-install pareedit)
 (require 'paredit)

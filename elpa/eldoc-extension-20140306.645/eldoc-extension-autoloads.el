@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; eldoc-extension-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:

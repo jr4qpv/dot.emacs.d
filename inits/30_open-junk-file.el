@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;;試行錯誤用ファイルを開くための設定
 ;; (M-x package-install open-junk-file)
 (require 'open-junk-file)

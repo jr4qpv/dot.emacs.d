@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; sequential-command.el --- Many commands into one command
 ;; $Id: sequential-command.el,v 1.3 2010/05/04 08:55:35 rubikitch Exp $
 

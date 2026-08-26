@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; my-manoj-dark.el --- A dark theme from Manoj
 
 ;; Copyright (C) 2011-2016 Free Software Foundation, Inc.

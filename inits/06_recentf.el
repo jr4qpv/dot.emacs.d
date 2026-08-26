@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;
 ;; recentf.elの設定
 ;; See: http://keisanbutsuriya.hateblo.jp/entry/2015/02/15/174758

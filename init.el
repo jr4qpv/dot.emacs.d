@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;Package cl is deprecatedが出されないための対策
 (setq byte-compile-warnings '(cl-functions))
 ;;Emacs @28用void: browse-url-mosaic-program対策
@@ -9,6 +10,8 @@
 (setq init_host (concat "~/.emacs.d/local/init_" (system-name) ".el"))
 (if (file-exists-p init_host)
     (load-file init_host))
+
+(setq package-gnupghome-dir "~/.emacs.d/elpa/gnupg")
 
 ;;
 ;; パッケージ管理(package.el)の設定

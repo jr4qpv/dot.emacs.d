@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; diminish.el --- Diminished modes are minor modes with no modeline display
 
 ;; Copyright (C) 1998 Free Software Foundation, Inc.

@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;;; auto-install-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
