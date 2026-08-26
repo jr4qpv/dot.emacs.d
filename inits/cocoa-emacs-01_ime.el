@@ -1,3 +1,4 @@
+;; -*- no-byte-compile: t; lexical-binding: nil -*-
 ;; Emacs Mac Port 用設定
 ;; ミニバッファで入力する際に自動的にASCIIにする
 (when (fboundp 'mac-auto-ascii-mode)
