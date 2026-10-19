@@ -6,6 +6,7 @@ eln-cache/
 eshell/
 etc/log/*.log
 kkcrc
+tramp
 ac-comphist.dat
 ido.last
 *.???~
